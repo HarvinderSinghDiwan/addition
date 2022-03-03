@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  2 04:05:49 2022
-
-@author: Harvi
-"""
 from flask import Flask, request, jsonify,Response
 app = Flask(__name__)
 @app.route("/addition")
